@@ -21,6 +21,6 @@ int main(void)
 		a1 = a2;
 		a2 = ij;
 	}
-	printf('\n');
+	printf("\n");
 	return (0);
 }
