@@ -9,7 +9,7 @@
 int main(void)
 {
 	int c; 
-	lomg int a1, a2, ij;
+	long int a1, a2, ij;
 
 	a1 = 1;
 	a2 = 2;
