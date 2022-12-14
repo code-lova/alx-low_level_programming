@@ -9,21 +9,21 @@
 
 int main(void)
 {
-	long int a1, a2, ij, afb;
+	long int n1, n2, fn, afn;
 
-	a1 = 1;
-	a2 = 2;
-	ij = afb = 0;
-	while (ij <= 4000000)
+	n1 = 1;
+	n2 = 2;
+	fn = afn = 0;
+	while (fn <= 4000000)
 	{
-		ij = a1 + a2;
-		a1 = a2;
-		a2 = afb;
-		if ((a1 % 2) == 0)
+		fn = n1 + n2;
+		n1 = n2;
+		n2 = fn;
+		if ((n1 % 2) == 0)
 		{
-			afb += a1;
+			afn += n1;
 		}
 	}
-	printf("%ld\n", afb);
+	printf("%ld\n", afn);
 	return (0);
 }
