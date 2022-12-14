@@ -11,7 +11,7 @@ int main(void)
 	long int n1, n2, fn, afn;
 
 	n1 = 1;
-	n2 = 2;
+	n2 = 2;i
 	fn = afn = 0;
 	while (fn <= 4000000)
 	{
